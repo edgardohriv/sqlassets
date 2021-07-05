@@ -1,0 +1,43 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/WorldCities",
+      "sslPort": 0
+    },
+    "iisExpress": {
+      "applicationUrl": "http://localhost:9194",
+      "sslPort": 44346
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_SHUTDOWNTIMEOUTSECONDS": "0"
+      }
+    },
+    "IIS ExpressTweaked": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\dotnet\\dotnet.exe",
+      "commandLineArgs": "run",
+      "workingDirectory": "C:\\PROYECTOS\\ANGULAR\\WorldCities",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "WorldCities": {
+      "commandName": "Executable",
+      "executablePath": "C:\\ANGULAR\\NODE\\v13.7.0\\npm.cmd",
+      "commandLineArgs": "start",
+      "workingDirectory": "C:\\PROYECTOS\\ANGULAR\\WorldCities\\ClientApp",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
